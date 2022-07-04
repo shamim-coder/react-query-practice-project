@@ -15,8 +15,7 @@ const App = () => {
                 <Header />
                 <Routes>
                     <Route path="/" element={<Home />} />
-                </Routes>
-                <Routes>
+
                     <Route path="/post/:id" element={<SinglePost />} />
                 </Routes>
                 <ReactQueryDevtools />
